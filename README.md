@@ -28,7 +28,7 @@ Domination Technologique : Les smartphones (Apple, Cisco) sont les moteurs princ
 Optimisation de la Marge : L'analyse montre que le volume de ventes ne garantit pas toujours le profit ; une surveillance étroite de la marge par pays est recommandée.
 
 📸 Aperçu du Tableau de Bord
-(Note : Pensez à remplacer ce lien par le nom de l'image que vous avez téléchargée sur votre GitHub)
+Tableau de Bord de Performaces.png
 
 📂 Comment utiliser ce dépôt
 Téléchargez le fichier .pbix présent dans ce dossier.
