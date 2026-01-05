@@ -1,38 +1,35 @@
-📊 Analyse de la Performance Globale - Global Superstore
-📝 Description du projet
-Ce projet consiste en la création d'un tableau de bord interactif sur Power BI pour analyser les ventes et la rentabilité de l'entreprise factice "Global Superstore". L'objectif est de transformer des données brutes en informations stratégiques pour aider à la prise de décision.
+# 📊 Analyse de la Performance Globale - Global Superstore
 
-🚀 Fonctionnalités clés
-Analyse Temporelle : Suivi de l'évolution mensuelle des ventes et du profit avec gestion de la hiérarchie des dates.
+## 📝 Description du projet
+Ce projet présente un tableau de bord interactif réalisé avec **Power BI**. L'objectif est de transformer les données brutes de "Global Superstore" en insights stratégiques pour piloter la rentabilité mondiale.
 
-Analyse Géographique : Cartographie mondiale interactive permettant d'identifier les volumes de ventes par région.
+## 📸 Aperçu du Dashboard
+![Tableau de Bord Global Superstore](dashboard.png)
+*(Si l'image ne s'affiche pas, vérifiez que le fichier est bien nommé dashboard.png et déposé à la racine du dépôt)*
 
-Top 5 Produits : Identification automatique des produits générant le plus de revenus.
+---
 
-Indicateurs Avancés (DAX) : Création d'une mesure personnalisée pour calculer la Marge % en temps réel.
+## 🚀 Fonctionnalités Techniques
+* **Modélisation de données :** Nettoyage et préparation des données avec Power Query.
+* **Indicateurs Avancés (DAX) :** Création d'une mesure personnalisée pour la **Marge %** :
+  `Marge % = DIVIDE(SUM(Orders[Profit]), SUM(Orders[Sales]), 0)`
+* **Analyse Temporelle :** Utilisation de la hiérarchie de dates pour suivre l'évolution mensuelle.
+* **Visualisation Géographique :** Cartographie interactive des ventes mondiales.
+* **Interactivité :** Intégration de segments (slicers) par Catégorie et Région pour un filtrage dynamique.
 
-Interactivité : Utilisation de segments (slicers) pour filtrer les données par catégorie et par marché.
+## 📈 Analyse des Résultats
+* **Top 5 Produits :** Les smartphones (Apple et Cisco) dominent le chiffre d'affaires, marquant une forte dépendance au secteur technologique.
+* **Corrélation Ventes/Profit :** L'analyse des courbes montre des pics en décembre, mais révèle des baisses de rentabilité en août, suggérant des coûts opérationnels ou des remises élevées durant cette période.
+* **Géographie :** Identification des marchés à fort volume mais à faible marge, permettant de prioriser les actions d'optimisation logistique.
 
-🛠️ Outils et Technologies
-Power BI Desktop
+## 🛠️ Outils utilisés
+* **Power BI Desktop**
+* **Langage DAX**
+* **Power Query**
 
-Langage DAX (Calcul de la marge bénéficiaire)
+---
 
-Power Query (Nettoyage et préparation des données)
-
-📈 Analyse et Conclusions
-Saisonalité : On observe une forte croissance vers la fin d'année (pic en décembre), tandis que certains mois comme août montrent une baisse de rentabilité malgré des volumes de ventes corrects.
-
-Domination Technologique : Les smartphones (Apple, Cisco) sont les moteurs principaux du chiffre d'affaires.
-
-Optimisation de la Marge : L'analyse montre que le volume de ventes ne garantit pas toujours le profit ; une surveillance étroite de la marge par pays est recommandée.
-
-📸 Aperçu du Tableau de Bord
-Tableau de Bord de Performaces.png
-
-📂 Comment utiliser ce dépôt
-Téléchargez le fichier .pbix présent dans ce dossier.
-
-Ouvrez-le avec Power BI Desktop.
-
-Explorez les graphiques en utilisant les filtres à disposition.
+## 📂 Installation et Utilisation
+1. Clonez ce dépôt ou téléchargez le fichier `.pbix`.
+2. Ouvrez le fichier avec **Power BI Desktop**.
+3. Utilisez les filtres interactifs pour explorer les données par catégorie ou par zone géographique.
