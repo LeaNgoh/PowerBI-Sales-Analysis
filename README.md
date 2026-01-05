@@ -4,8 +4,8 @@
 Ce projet présente un tableau de bord interactif réalisé avec **Power BI**. L'objectif est de transformer les données brutes de "Global Superstore" en insights stratégiques pour piloter la rentabilité mondiale.
 
 ## 📸 Aperçu du Dashboard
-![Tableau de Bord Global Superstore](dashboard.png)
-*(Si l'image ne s'affiche pas, vérifiez que le fichier est bien nommé dashboard.png et déposé à la racine du dépôt)*
+![Tableau de Bord Global Superstore](Tableau de Bord de Performaces.png)
+
 
 ---
 
